@@ -1,0 +1,246 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Courses - HK-CODER</title>
+  <meta name="description" content="Explore programming and web development courses by HK-CODER">
+  <meta name="keywords" content="HK-CODER, web development, programming, courses">
+
+  <link href="assets/img/favicon.svg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Custom Dark Theme CSS -->
+  <style>
+    body {
+      background-color: #121212;
+      color: #e0e0e0;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .header, .footer {
+      background-color: #1a1a1a;
+    }
+
+    .sitename {
+      color: #00ff88;
+    }
+
+    .navmenu a,
+    .navmenu a:visited {
+      color: #e0e0e0;
+    }
+
+    .navmenu a:hover,
+    .navmenu li:hover > a {
+      color: #00ff88;
+    }
+
+    .page-title .heading {
+      background-color: #1a1a1a;
+      padding: 60px 0;
+    }
+
+    .page-title h1 {
+      color: #00ff88;
+    }
+
+    .starter-section h2,
+    .starter-section .description-title {
+      color: #00ff88;
+    }
+
+    .card {
+      background-color: #1e1e1e;
+      border: 1px solid #333;
+      color: #e0e0e0;
+    }
+
+    .btn-outline-primary {
+      color: #00ff88;
+      border-color: #00ff88;
+    }
+
+    .btn-outline-primary:hover {
+      background-color: #00ff88;
+      color: #121212;
+    }
+
+    .social-links a {
+      color: #e0e0e0;
+      margin: 0 10px;
+    }
+
+    .social-links a:hover {
+      color: #00ff88;
+    }
+
+    .breadcrumbs {
+      background-color: #1e1e1e;
+    }
+
+    .copyright {
+      margin-top: 20px;
+      color: #888;
+    }
+
+    .credits a {
+      color: #00ff88;
+    }
+
+    #scroll-top {
+      background-color: #00ff88;
+      color: #121212;
+    }
+  </style>
+
+  <!-- Main CSS -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">HK-CODER</h1>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li class="dropdown">
+            <a href="#"><span>Courses</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">HTML & CSS</a></li>
+              <li><a href="#">JavaScript</a></li>
+              <li><a href="#">Python</a></li>
+              <li><a href="#">C++ & C</a></li>
+              <li><a href="#">SQL</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Our Courses</h1>
+              <p class="mb-0">Master modern technologies with expert-led video lessons and interactive tutorials.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Courses</li>
+          </ol>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Courses Section -->
+    <section id="starter-section" class="starter-section section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Popular Courses</h2>
+        <p><span class="description-title">HK-CODER</span> offers practical, project-based learning.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="card p-4 text-center">
+              <h4>HTML & CSS</h4>
+              <p>Start with the basics of web structure and design.</p>
+              <a href="#" class="btn btn-outline-primary mt-2">Explore</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card p-4 text-center">
+              <h4>JavaScript</h4>
+              <p>Create dynamic web apps with scripting power.</p>
+              <a href="#" class="btn btn-outline-primary mt-2">Explore</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card p-4 text-center">
+              <h4>Python</h4>
+              <p>Learn Python for automation, data, or backend.</p>
+              <a href="#" class="btn btn-outline-primary mt-2">Explore</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer text-center py-4">
+    <div class="container">
+      <h3 class="sitename">HK-CODER</h3>
+      <p>web developer | problem solver | creator</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.facebook.com/share/1XbTNiT293/"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/itx_haris_077"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-skype"></i></a>
+        <a href="https://github.com/hariskhan123786"><i class="bi bi-github"></i></a>
+      </div>
+      <div class="copyright mt-3">
+        © <strong>HK-CODER</strong> All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="#">Haris Khan</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
